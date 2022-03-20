@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'icons';
+  src:  url('./fonts/icons.eot?lz595h');
+  src:  url('./fonts/icons.eot?lz595h#iefix') format('embedded-opentype'),
+    url('./fonts/icons.ttf?lz595h') format('truetype'),
+    url('./fonts/icons.woff?lz595h') format('woff'),
+    url('./fonts/icons.svg?lz595h#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="__icon-"]::before, [class*=" __icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  padding-right: 5px;
+  line-height: 1;
+  
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Side menu */
+.__icon-home:before {
+  content: "\e900";
+}
+.__icon-search:before {
+  content: "\e986";
+}
+.__icon-puzzle:before {
+  content: "\e90d";
+}
+.__icon-folder:before {
+  content: "\e903";
+}
+.__icon-download:before {
+  content: "\e901";
+}
+.__icon-love-list:before {
+  content: "\e906";
+}
+.__icon-books:before {
+  content: "\e920";
+}
+
+/* User */
+.__icon-edit:before {
+  content: "\e902";
+}
+.__icon-user:before {
+  content: "\e971";
+}
+
+/* Footer music bar */
+.__icon-text-music:before {
+  content: "\e928";
+}
+.__icon-heart:before {
+  content: "\e9da";
+}
+.__icon-play:before {
+  content: "\e90c";
+}
+.__icon-pause:before {
+  content: "\e90b";
+}
+.__icon-window:before {
+  content: "\e910";
+}
+.__icon-play-shake:before {
+  content: "\e907";
+}
+.__icon-play-next:before {
+  content: "\e908";
+}
+.__icon-play-back:before {
+  content: "\e909";
+}
+.__icon-repeat:before {
+  content: "\e90e";
+}
+.__icon-volume-mute:before {
+  content: "\e904";
+}
+.__icon-query:before {
+  content: "\e90a";
+}
